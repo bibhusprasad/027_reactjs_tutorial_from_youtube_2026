@@ -41,4 +41,9 @@ Redux Toolkit Full Course 2026 🔥 | React + Redux Project (Hindi)
     [Flowbite URL](https://flowbite.com/docs/components/navbar/)
     => copy Header HTML code and convert to jsx code using any online tool.
     => do same for footer 
-    
+
+#### [Create Header and Footer from Flowbite](https://github.com/bibhusprasad/027_reactjs_tutorial_from_youtube_2026/commit/5dcc898b03b98d98f1386db26eb78bc7fb232345)
+
+## Create Home and Cart Pages and implement Routes with Link to navigate pages
+
+#### [Create Header and Footer from Flowbite]()

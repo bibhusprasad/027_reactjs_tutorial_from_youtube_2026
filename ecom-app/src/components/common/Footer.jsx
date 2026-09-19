@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-function Footer(props) {
+export default function Footer() {
   return (
     <div>
       <footer className="bg-neutral-primary-soft">
@@ -180,5 +180,3 @@ function Footer(props) {
     </div>
   );
 }
-
-export default Footer;
