@@ -33,3 +33,12 @@ Redux Toolkit Full Course 2026 🔥 | React + Redux Project (Hindi)
     replace everything with @import "tailwindcss";
 
     >npm i react-router
+
+#### [Initial : Create React ecom-app project with tailwindcss and react-router](https://github.com/bibhusprasad/027_reactjs_tutorial_from_youtube_2026/commit/ce2d97262d2b3d5b7278b3ca1fdb6dbbc674a4b5)
+
+## Create Header and Footer from Flowbite
+    
+    [Flowbite URL](https://flowbite.com/docs/components/navbar/)
+    => copy Header HTML code and convert to jsx code using any online tool.
+    => do same for footer 
+    
