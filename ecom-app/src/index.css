@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme {
+    /* Brand */
+    --color-brand: #2563eb;
+    --color-brand-strong: #1d4ed8;
+    --color-brand-medium: #93c5fd;
+
+    /* Danger */
+    --color-danger: #dc2626;
+    --color-danger-strong: #b91c1c;
+    --color-danger-medium: #fca5a5;
+}

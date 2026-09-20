@@ -64,3 +64,10 @@ Redux Toolkit Full Course 2026 🔥 | React + Redux Project (Hindi)
 #### [Implement Redux Tool Kit : create slice](https://github.com/bibhusprasad/027_reactjs_tutorial_from_youtube_2026/commit/b60395f8021eb1f20fe0b05cb6442e45b910dbca)
 
 ### create store and connect with slice
+
+#### [Implement Redux Tool Kit : create store and connect with slice](https://github.com/bibhusprasad/027_reactjs_tutorial_from_youtube_2026/commit/9d34303910f02b745cc62f9503dcd415646383f4)
+
+### access and modify store data in ui
+    
+    =>useSelector
+    =>useDispatch
