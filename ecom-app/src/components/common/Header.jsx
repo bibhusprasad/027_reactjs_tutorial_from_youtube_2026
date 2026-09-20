@@ -5,6 +5,7 @@ import {useSelector} from "react-redux";
 export default function Header() {
 
   let myData = useSelector(myStore => myStore.counterStore.count);
+  let myCart = useSelector(myStore => myStore.cartSlice.cart);
 
   return (
     <div>
@@ -65,7 +66,7 @@ export default function Header() {
                   to={'/cart'}
                   className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
                 >
-                  Cart [{myData}]
+                  Cart [{myCart.length}]
                 </Link>
               </li>
             </ul>

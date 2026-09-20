@@ -1,8 +1,23 @@
 import React from 'react'
+import {useDispatch} from "react-redux";
+import {addToCart} from "../../redux/cartSlice.js";
 
 export default function ProductCard({data}) {
 
-  let {title, price, thumbnail, description, rating, discountPercentage} = data
+  let {title, price, thumbnail, description, rating, discountPercentage, id} = data
+
+  let dispatch = useDispatch();
+
+  let addItemToCart = () => {
+    const cartObj = {
+      title,
+      price,
+      image: thumbnail,
+      qty: 1,
+      id
+    };
+    dispatch(addToCart({cartObj}));
+  };
 
   return (
     <div>
@@ -115,12 +130,13 @@ export default function ProductCard({data}) {
             </p>
           </div>
           <div className="mt-4 flex items-center justify-between gap-4">
-            <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">
+            <p className="text-2xl font-extrabold leading-tight text-gray-900">
               {price}
             </p>
             <button
               type="button"
-              className="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+              className="inline-flex items-center border rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+              onClick={addItemToCart}
             >
               <svg
                 className="-ms-2 me-2 h-5 w-5"

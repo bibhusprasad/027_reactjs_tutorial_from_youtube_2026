@@ -88,3 +88,6 @@ Redux Toolkit Full Course 2026 🔥 | React + Redux Project (Hindi)
 
 ### create cart ui
 
+#### [Implement Shopping Cart Application : create cart ui](https://github.com/bibhusprasad/027_reactjs_tutorial_from_youtube_2026/commit/4c6c57c6de9ed25454dda1b01699909d6d796117)
+
+### create cartSlice and add item to cart
