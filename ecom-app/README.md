@@ -78,3 +78,8 @@ Redux Toolkit Full Course 2026 🔥 | React + Redux Project (Hindi)
 
 ### create a product card
 
+#### [Implement Shopping Cart Application : create a product card](https://github.com/bibhusprasad/027_reactjs_tutorial_from_youtube_2026/commit/b4cf3b8fb20187356b17ebf1156f50d38c836ca8)
+
+### integrate api to fetch products and show in home page
+
+    > npm install axios

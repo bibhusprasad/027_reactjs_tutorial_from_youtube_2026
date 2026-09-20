@@ -8,7 +8,6 @@ import Cart from './components/pages/Cart.jsx';
 import MainLayout from "./components/common/MainLayout.jsx";
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
     <BrowserRouter>
       <Routes>
         <Route element={< MainLayout />}>
@@ -17,5 +16,4 @@ createRoot(document.getElementById('root')).render(
         </Route>
       </Routes>
     </BrowserRouter>
-  </StrictMode>,
 )
