@@ -71,3 +71,10 @@ Redux Toolkit Full Course 2026 🔥 | React + Redux Project (Hindi)
     
     =>useSelector
     =>useDispatch
+
+#### [Implement Redux Tool Kit : access and modify store data in ui](https://github.com/bibhusprasad/027_reactjs_tutorial_from_youtube_2026/commit/54c6c22f61b32ec5b407e822492b3e5347304440)
+
+## Implement Shopping Cart Application
+
+### create a product card
+

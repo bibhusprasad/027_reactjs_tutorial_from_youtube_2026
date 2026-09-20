@@ -1,33 +1,19 @@
 import React from 'react'
 import {useDispatch} from "react-redux";
 import {increment, decrement} from "../../redux/counterSlice.js";
+import ProductCart from "./ProductCart.jsx";
 
 export default function Home() {
 
   let dispatch = useDispatch();
 
   return (
-    <div>
-      <h1>Home</h1>
-      <button
-        type="button"
-        className="text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-full text-sm px-4 py-2.5 focus:outline-none"
-        onClick={() => {
-          dispatch(increment())
-        }}
-      >
-        Increment
-      </button>
-      <button
-        type="button"
-        className="text-white bg-danger box-border border border-transparent hover:bg-danger-strong focus:ring-4 focus:ring-danger-medium shadow-xs font-medium leading-5 rounded-full text-sm px-4 py-2.5 focus:outline-none"
-        onClick={() => {
-          dispatch(decrement())
-        }}
-      >
-        Decrement
-      </button>
 
-    </div>
+    <section className='bg-gray-50 py-8 antialiased dark:bg-gray-900 md:py-12'>
+      <h1 className='text-3xl text-center font-bold'>Our Products</h1>
+      <div className='mx-auto max-w-[1320px] grid grid-cols-4 gap-8 mt-5'>
+        <ProductCart />
+      </div>
+    </section>
   );
 }
