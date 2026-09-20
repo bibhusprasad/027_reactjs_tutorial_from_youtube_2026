@@ -60,3 +60,7 @@ Redux Toolkit Full Course 2026 🔥 | React + Redux Project (Hindi)
     > npm install react-redux
 
 ### create slice
+
+#### [Implement Redux Tool Kit : create slice](https://github.com/bibhusprasad/027_reactjs_tutorial_from_youtube_2026/commit/b60395f8021eb1f20fe0b05cb6442e45b910dbca)
+
+### create store and connect with slice
