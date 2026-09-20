@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import {useDispatch} from "react-redux";
-import ProductCart from "./ProductCart.jsx";
+import ProductCard from "./ProductCard.jsx";
 import axios from "axios";
 
 export default function Home() {
@@ -24,7 +24,7 @@ export default function Home() {
         {
           products.map((product, index) => {
             return (
-              <ProductCart key={index} data={product} />
+              <ProductCard key={index} data={product} />
             )
           })
         }

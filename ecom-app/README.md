@@ -83,3 +83,8 @@ Redux Toolkit Full Course 2026 🔥 | React + Redux Project (Hindi)
 ### integrate api to fetch products and show in home page
 
     > npm install axios
+
+#### [Implement Shopping Cart Application : integrate api to fetch products and show in home page](https://github.com/bibhusprasad/027_reactjs_tutorial_from_youtube_2026/commit/1a9d4cb5e7e3629a9f453b8d76880b09c8927f2b)
+
+### create cart ui
+
